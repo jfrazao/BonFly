@@ -134,15 +134,6 @@ def process(value):
   #CV.Circle(output, Point(head), 2, Scalar.Rgb(0, 0, 204), -1)
   return Tuple[Point2f,Point2f](head,tail)</scr:Script>
       </Expression>
-      <Expression xsi:type="MemberSelector">
-        <Selector>Item1</Selector>
-      </Expression>
-      <Expression xsi:type="MemberSelector">
-        <Selector>Item2</Selector>
-      </Expression>
-      <Expression xsi:type="Combinator">
-        <Combinator xsi:type="rx:Zip" />
-      </Expression>
       <Expression xsi:type="WorkflowOutput" />
     </Nodes>
     <Edges>
@@ -163,10 +154,6 @@ def process(value):
       <Edge From="12" To="13" Label="Source3" />
       <Edge From="13" To="14" Label="Source1" />
       <Edge From="14" To="15" Label="Source1" />
-      <Edge From="14" To="16" Label="Source1" />
-      <Edge From="15" To="17" Label="Source1" />
-      <Edge From="16" To="17" Label="Source2" />
-      <Edge From="17" To="18" Label="Source1" />
     </Edges>
   </Workflow>
 </WorkflowBuilder>

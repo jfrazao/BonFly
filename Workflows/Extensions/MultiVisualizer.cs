@@ -8,7 +8,7 @@ using OpenCV.Net;
 using Bonsai.Vision;
 
 [Combinator]
-[Description("Isto fas visualizadires ")]
+[Description("Visualizer for multiple entities with colored ID")]
 [WorkflowElementCategory(ElementCategory.Transform)]
 public class MultiVisualizer
 {
